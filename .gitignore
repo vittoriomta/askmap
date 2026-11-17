@@ -1,0 +1,8 @@
+node_modules
+dist
+.askmap
+.DS_Store
+scratch
+demo/wildchat-sample.jsonl
+.askmap-*
+.claude

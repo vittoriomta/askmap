@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2023"],
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "outDir": "dist/core",
+    "rootDir": "src/core",
+    "types": ["node"],
+    "rewriteRelativeImportExtensions": true,
+    "allowImportingTsExtensions": true
+  },
+  "include": ["src/core"]
+}

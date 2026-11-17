@@ -1,0 +1,695 @@
+{
+  "version": 1,
+  "id": "example",
+  "createdAt": "2026-11-17T09:00:00.000Z",
+  "source": "Example data",
+  "format": "jsonl",
+  "model": "example",
+  "embedder": "Xenova/all-MiniLM-L6-v2",
+  "conversations": 1008,
+  "users": 611,
+  "clusters": [
+    {
+      "id": "c0",
+      "name": "IT and access",
+      "description": "Conversations about it and access.",
+      "level": 0,
+      "children": [
+        "c0.0",
+        "c0.1",
+        "c0.2"
+      ],
+      "conversations": 201,
+      "users": 124,
+      "outcomes": {
+        "resolved": 103,
+        "partial": 42,
+        "unresolved": 50,
+        "unclear": 6
+      },
+      "languages": [],
+      "turns": 2.4,
+      "examples": []
+    },
+    {
+      "id": "c0.0",
+      "name": "Reset VPN and two-factor access",
+      "description": "People ask the assistant to reset VPN and two-factor access.",
+      "level": 1,
+      "parent": "c0",
+      "conversations": 96,
+      "users": 53,
+      "outcomes": {
+        "resolved": 36,
+        "partial": 26,
+        "unresolved": 31,
+        "unclear": 3
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 60
+        },
+        {
+          "key": "Italian",
+          "count": 37
+        },
+        {
+          "key": "German",
+          "count": 27
+        }
+      ],
+      "turns": 2.8,
+      "examples": [
+        "Asked how to regain VPN access after a phone change",
+        "Wanted to reset two-factor authentication on a new laptop",
+        "Asked why the VPN client rejects their login"
+      ]
+    },
+    {
+      "id": "c0.1",
+      "name": "Set up laptops and accounts",
+      "description": "People ask the assistant to set up laptops and accounts.",
+      "level": 1,
+      "parent": "c0",
+      "conversations": 64,
+      "users": 40,
+      "outcomes": {
+        "resolved": 44,
+        "partial": 8,
+        "unresolved": 10,
+        "unclear": 2
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 40
+        },
+        {
+          "key": "Italian",
+          "count": 25
+        },
+        {
+          "key": "German",
+          "count": 18
+        }
+      ],
+      "turns": 1.6,
+      "examples": [
+        "Asked which software to install on a new laptop",
+        "Wanted access to a shared drive for a new team"
+      ]
+    },
+    {
+      "id": "c0.2",
+      "name": "Fix email and calendar sync",
+      "description": "People ask the assistant to fix email and calendar sync.",
+      "level": 1,
+      "parent": "c0",
+      "conversations": 41,
+      "users": 31,
+      "outcomes": {
+        "resolved": 23,
+        "partial": 8,
+        "unresolved": 9,
+        "unclear": 1
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 26
+        },
+        {
+          "key": "Italian",
+          "count": 16
+        },
+        {
+          "key": "German",
+          "count": 11
+        }
+      ],
+      "turns": 2.7,
+      "examples": [
+        "Asked why meetings don't appear on their phone",
+        "Wanted to recover deleted calendar invites"
+      ]
+    },
+    {
+      "id": "c1",
+      "name": "People and HR",
+      "description": "Conversations about people and hr.",
+      "level": 0,
+      "children": [
+        "c1.0",
+        "c1.1",
+        "c1.2"
+      ],
+      "conversations": 174,
+      "users": 115,
+      "outcomes": {
+        "resolved": 142,
+        "partial": 12,
+        "unresolved": 15,
+        "unclear": 5
+      },
+      "languages": [],
+      "turns": 2.4,
+      "examples": []
+    },
+    {
+      "id": "c1.0",
+      "name": "Explain leave and holiday policy",
+      "description": "People ask the assistant to explain leave and holiday policy.",
+      "level": 1,
+      "parent": "c1",
+      "conversations": 88,
+      "users": 60,
+      "outcomes": {
+        "resolved": 72,
+        "partial": 6,
+        "unresolved": 7,
+        "unclear": 3
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 55
+        },
+        {
+          "key": "Italian",
+          "count": 34
+        },
+        {
+          "key": "German",
+          "count": 24
+        }
+      ],
+      "turns": 2.9,
+      "examples": [
+        "Asked how many holiday days carry over to next year",
+        "Wanted to know how parental leave is calculated"
+      ]
+    },
+    {
+      "id": "c1.1",
+      "name": "Draft job descriptions",
+      "description": "People ask the assistant to draft job descriptions.",
+      "level": 1,
+      "parent": "c1",
+      "conversations": 47,
+      "users": 31,
+      "outcomes": {
+        "resolved": 41,
+        "partial": 2,
+        "unresolved": 3,
+        "unclear": 1
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 29
+        },
+        {
+          "key": "Italian",
+          "count": 18
+        },
+        {
+          "key": "German",
+          "count": 13
+        }
+      ],
+      "turns": 2.3,
+      "examples": [
+        "Asked for a job description for a data analyst role",
+        "Wanted a shorter version of an existing posting"
+      ]
+    },
+    {
+      "id": "c1.2",
+      "name": "Prepare performance reviews",
+      "description": "People ask the assistant to prepare performance reviews.",
+      "level": 1,
+      "parent": "c1",
+      "conversations": 39,
+      "users": 24,
+      "outcomes": {
+        "resolved": 29,
+        "partial": 4,
+        "unresolved": 5,
+        "unclear": 1
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 24
+        },
+        {
+          "key": "Italian",
+          "count": 15
+        },
+        {
+          "key": "German",
+          "count": 11
+        }
+      ],
+      "turns": 3.6,
+      "examples": [
+        "Asked for help structuring feedback for a direct report",
+        "Wanted examples of measurable goals"
+      ]
+    },
+    {
+      "id": "c2",
+      "name": "Finance and expenses",
+      "description": "Conversations about finance and expenses.",
+      "level": 0,
+      "children": [
+        "c2.0",
+        "c2.1"
+      ],
+      "conversations": 116,
+      "users": 73,
+      "outcomes": {
+        "resolved": 63,
+        "partial": 23,
+        "unresolved": 27,
+        "unclear": 3
+      },
+      "languages": [],
+      "turns": 2.4,
+      "examples": []
+    },
+    {
+      "id": "c2.0",
+      "name": "Check expense and travel rules",
+      "description": "People ask the assistant to check expense and travel rules.",
+      "level": 1,
+      "parent": "c2",
+      "conversations": 72,
+      "users": 42,
+      "outcomes": {
+        "resolved": 35,
+        "partial": 16,
+        "unresolved": 19,
+        "unclear": 2
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 45
+        },
+        {
+          "key": "Italian",
+          "count": 28
+        },
+        {
+          "key": "German",
+          "count": 20
+        }
+      ],
+      "turns": 2.6,
+      "examples": [
+        "Asked whether a client dinner can be expensed",
+        "Wanted the daily limit for travel in another country"
+      ]
+    },
+    {
+      "id": "c2.1",
+      "name": "Explain invoices and payments",
+      "description": "People ask the assistant to explain invoices and payments.",
+      "level": 1,
+      "parent": "c2",
+      "conversations": 44,
+      "users": 31,
+      "outcomes": {
+        "resolved": 28,
+        "partial": 7,
+        "unresolved": 8,
+        "unclear": 1
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 28
+        },
+        {
+          "key": "Italian",
+          "count": 17
+        },
+        {
+          "key": "German",
+          "count": 12
+        }
+      ],
+      "turns": 4,
+      "examples": [
+        "Asked why a supplier invoice is still unpaid",
+        "Wanted to understand a payment term on a contract"
+      ]
+    },
+    {
+      "id": "c3",
+      "name": "Customers and sales",
+      "description": "Conversations about customers and sales.",
+      "level": 0,
+      "children": [
+        "c3.0",
+        "c3.1",
+        "c3.2"
+      ],
+      "conversations": 192,
+      "users": 125,
+      "outcomes": {
+        "resolved": 148,
+        "partial": 17,
+        "unresolved": 21,
+        "unclear": 6
+      },
+      "languages": [],
+      "turns": 2.4,
+      "examples": []
+    },
+    {
+      "id": "c3.0",
+      "name": "Reply to customer complaints",
+      "description": "People ask the assistant to reply to customer complaints.",
+      "level": 1,
+      "parent": "c3",
+      "conversations": 83,
+      "users": 54,
+      "outcomes": {
+        "resolved": 61,
+        "partial": 9,
+        "unresolved": 11,
+        "unclear": 2
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 52
+        },
+        {
+          "key": "Italian",
+          "count": 32
+        },
+        {
+          "key": "German",
+          "count": 23
+        }
+      ],
+      "turns": 1.8,
+      "examples": [
+        "Asked for a polite reply to a late-delivery complaint",
+        "Wanted to soften the tone of a refusal"
+      ]
+    },
+    {
+      "id": "c3.1",
+      "name": "Summarize accounts before calls",
+      "description": "People ask the assistant to summarize accounts before calls.",
+      "level": 1,
+      "parent": "c3",
+      "conversations": 58,
+      "users": 35,
+      "outcomes": {
+        "resolved": 45,
+        "partial": 5,
+        "unresolved": 6,
+        "unclear": 2
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 36
+        },
+        {
+          "key": "Italian",
+          "count": 22
+        },
+        {
+          "key": "German",
+          "count": 16
+        }
+      ],
+      "turns": 3.7,
+      "examples": [
+        "Asked for a summary of an account before a renewal call",
+        "Wanted the open issues for a customer in three bullets"
+      ]
+    },
+    {
+      "id": "c3.2",
+      "name": "Write sales follow-ups",
+      "description": "People ask the assistant to write sales follow-ups.",
+      "level": 1,
+      "parent": "c3",
+      "conversations": 51,
+      "users": 36,
+      "outcomes": {
+        "resolved": 42,
+        "partial": 3,
+        "unresolved": 4,
+        "unclear": 2
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 32
+        },
+        {
+          "key": "Italian",
+          "count": 20
+        },
+        {
+          "key": "German",
+          "count": 14
+        }
+      ],
+      "turns": 3.2,
+      "examples": [
+        "Asked for a follow-up email after a demo",
+        "Wanted a reminder that doesn't sound pushy"
+      ]
+    },
+    {
+      "id": "c4",
+      "name": "Writing and documents",
+      "description": "Conversations about writing and documents.",
+      "level": 0,
+      "children": [
+        "c4.0",
+        "c4.1",
+        "c4.2"
+      ],
+      "conversations": 195,
+      "users": 123,
+      "outcomes": {
+        "resolved": 160,
+        "partial": 13,
+        "unresolved": 16,
+        "unclear": 6
+      },
+      "languages": [],
+      "turns": 2.4,
+      "examples": []
+    },
+    {
+      "id": "c4.0",
+      "name": "Summarize long documents",
+      "description": "People ask the assistant to summarize long documents.",
+      "level": 1,
+      "parent": "c4",
+      "conversations": 92,
+      "users": 62,
+      "outcomes": {
+        "resolved": 78,
+        "partial": 5,
+        "unresolved": 6,
+        "unclear": 3
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 58
+        },
+        {
+          "key": "Italian",
+          "count": 35
+        },
+        {
+          "key": "German",
+          "count": 26
+        }
+      ],
+      "turns": 2.2,
+      "examples": [
+        "Asked for a one-page summary of a policy document",
+        "Wanted the key decisions from meeting notes"
+      ]
+    },
+    {
+      "id": "c4.1",
+      "name": "Translate internal documents",
+      "description": "People ask the assistant to translate internal documents.",
+      "level": 1,
+      "parent": "c4",
+      "conversations": 57,
+      "users": 36,
+      "outcomes": {
+        "resolved": 44,
+        "partial": 5,
+        "unresolved": 6,
+        "unclear": 2
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 36
+        },
+        {
+          "key": "Italian",
+          "count": 22
+        },
+        {
+          "key": "German",
+          "count": 16
+        }
+      ],
+      "turns": 3.9,
+      "examples": [
+        "Asked to translate a procedure into Italian",
+        "Wanted an English version of a supplier contract clause"
+      ]
+    },
+    {
+      "id": "c4.2",
+      "name": "Polish slides and reports",
+      "description": "People ask the assistant to polish slides and reports.",
+      "level": 1,
+      "parent": "c4",
+      "conversations": 46,
+      "users": 25,
+      "outcomes": {
+        "resolved": 38,
+        "partial": 3,
+        "unresolved": 4,
+        "unclear": 1
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 29
+        },
+        {
+          "key": "Italian",
+          "count": 18
+        },
+        {
+          "key": "German",
+          "count": 13
+        }
+      ],
+      "turns": 2.1,
+      "examples": [
+        "Asked to tighten the wording on a quarterly slide",
+        "Wanted clearer headings for a report"
+      ]
+    },
+    {
+      "id": "c5",
+      "name": "Data and reports",
+      "description": "Conversations about data and reports.",
+      "level": 0,
+      "children": [
+        "c5.0",
+        "c5.1"
+      ],
+      "conversations": 107,
+      "users": 69,
+      "outcomes": {
+        "resolved": 61,
+        "partial": 20,
+        "unresolved": 23,
+        "unclear": 3
+      },
+      "languages": [],
+      "turns": 2.4,
+      "examples": []
+    },
+    {
+      "id": "c5.0",
+      "name": "Write spreadsheet formulas",
+      "description": "People ask the assistant to write spreadsheet formulas.",
+      "level": 1,
+      "parent": "c5",
+      "conversations": 69,
+      "users": 48,
+      "outcomes": {
+        "resolved": 45,
+        "partial": 10,
+        "unresolved": 12,
+        "unclear": 2
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 43
+        },
+        {
+          "key": "Italian",
+          "count": 27
+        },
+        {
+          "key": "German",
+          "count": 19
+        }
+      ],
+      "turns": 3.6,
+      "examples": [
+        "Asked for a formula that sums sales by region",
+        "Wanted to fix a lookup that returns errors"
+      ]
+    },
+    {
+      "id": "c5.1",
+      "name": "Query the sales database",
+      "description": "People ask the assistant to query the sales database.",
+      "level": 1,
+      "parent": "c5",
+      "conversations": 38,
+      "users": 21,
+      "outcomes": {
+        "resolved": 16,
+        "partial": 10,
+        "unresolved": 11,
+        "unclear": 1
+      },
+      "languages": [
+        {
+          "key": "English",
+          "count": 24
+        },
+        {
+          "key": "Italian",
+          "count": 15
+        },
+        {
+          "key": "German",
+          "count": 11
+        }
+      ],
+      "turns": 2.7,
+      "examples": [
+        "Asked for SQL to list customers who churned last quarter",
+        "Wanted to join orders with invoices by customer"
+      ]
+    }
+  ],
+  "privacy": {
+    "minUsers": 5,
+    "countsUsers": true,
+    "hiddenClusters": 3,
+    "hiddenConversations": 23,
+    "rewritten": 1
+  }
+}

@@ -1,0 +1,1 @@
+[{"uuid":"a1","name":"Contract review","account":{"uuid":"acc-1"},"chat_messages":[{"sender":"human","text":"Check this NDA for unusual clauses","content":[{"type":"text","text":"Check this NDA for unusual clauses"}]},{"sender":"assistant","text":"Two clauses stand out...","content":[{"type":"text","text":"Two clauses stand out..."}]}]}]
